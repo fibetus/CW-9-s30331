@@ -13,7 +13,7 @@ public class AppDbContext : DbContext
     
     public AppDbContext(DbContextOptions options) : base(options)
     {
-        // 28 minuta
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

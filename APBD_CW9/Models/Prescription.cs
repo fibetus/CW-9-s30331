@@ -10,10 +10,10 @@ public class Prescription
     public int IdPrescription { get; set; }
 
     [Required]
-    public DateTime Date { get; set; }
+    public DateOnly Date { get; set; }
 
     [Required]
-    public DateTime DueDate { get; set; }
+    public DateOnly DueDate { get; set; }
 
     [Required]
     public int IdPatient { get; set; }

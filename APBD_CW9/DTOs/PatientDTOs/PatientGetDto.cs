@@ -15,7 +15,7 @@ public class PatientGetDto
     public string LastName { get; set; }
     
     [Required]
-    public DateTime Birthdate { get; set; }
+    public DateOnly Birthdate { get; set; }
     
     public List<PrescriptionGetDto> Prescriptions { get; set; } = new List<PrescriptionGetDto>();
 }

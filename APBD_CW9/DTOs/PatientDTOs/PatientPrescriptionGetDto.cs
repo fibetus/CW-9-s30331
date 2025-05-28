@@ -15,5 +15,5 @@ public class PatientPrescriptionGetDto
     public string LastName { get; set; }
 
     [Required]
-    public DateTime Birthdate { get; set; }
+    public DateOnly Birthdate { get; set; }
 }

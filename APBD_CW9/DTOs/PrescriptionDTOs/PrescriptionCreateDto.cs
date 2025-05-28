@@ -17,9 +17,9 @@ public class PrescriptionCreateDto
 
     [Required]
     [DataType(DataType.Date)]
-    public DateTime Date { get; set; }
+    public DateOnly Date { get; set; }
 
     [Required]
     [DataType(DataType.Date)]
-    public DateTime DueDate { get; set; }
+    public DateOnly DueDate { get; set; }
 }

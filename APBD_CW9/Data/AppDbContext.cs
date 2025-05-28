@@ -36,7 +36,7 @@ public class AppDbContext : DbContext
             IdPatient = 1,
             FirstName = "Peter",
             LastName = "Parker",
-            Birthdate = new DateTime(1980, 1, 1),
+            Birthdate = new DateOnly(1980, 1, 1),
         };
 
         var medicament = new Medicament
@@ -50,8 +50,8 @@ public class AppDbContext : DbContext
         var prescription = new Prescription
         {
             IdPrescription = 1,
-            Date = new DateTime(2025, 5, 27),
-            DueDate = new DateTime(2025, 7, 15),
+            Date = new DateOnly(2025, 5, 27),
+            DueDate = new DateOnly(2025, 7, 15),
             IdPatient = 1,
             IdDoctor = 1
         };

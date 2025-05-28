@@ -16,8 +16,10 @@ public class PrescriptionCreateDto
     public List<MedicamentPrescriptionCreateDto> Medicaments { get; set; } = new List<MedicamentPrescriptionCreateDto>();
 
     [Required]
+    [DataType(DataType.Date)]
     public DateTime Date { get; set; }
 
     [Required]
+    [DataType(DataType.Date)]
     public DateTime DueDate { get; set; }
 }

@@ -6,8 +6,10 @@ public class MedicamentPrescriptionCreateDto
 {
     [Required]
     public int IdMedicament { get; set; }
+    
     public int? Dose { get; set; }
+    
     [Required]
-    [MaxLength(50)]
+    [MaxLength(100)]
     public string Details { get; set; }
 }
